@@ -1,11 +1,11 @@
 Package: timeordered
 Type: Package
-Title: Time-ordered and Time-aggregated Network Analyses
+Title: Time-Ordered and Time-Aggregated Network Analyses
 Version: 0.9.9
-Date: 2018-07-03
+Date: 2018-07-04
 Author: Benjamin Blonder
 Maintainer: Benjamin Blonder <bblonder@gmail.com>
-Description: Methods for incorporating time into network analysis. Construction of time-ordered networks (temporal graphs). Shortest-time and shortest-path-length analyses. Resource spread calculations. Data resampling and rarefaction for null model construction. Reduction to time-aggregated networks with variable window sizes; application of common descriptive statistics to these networks. Vector clock latencies. Plotting functionalities.
+Description: Methods for incorporating time into network analysis. Construction of time-ordered networks (temporal graphs). Shortest-time and shortest-path-length analyses. Resource spread calculations. Data resampling and rarefaction for null model construction. Reduction to time-aggregated networks with variable window sizes; application of common descriptive statistics to these networks. Vector clock latencies. Plotting functionalities. Supports Blonder & Dornhaus (2011) - Time-Ordered Networks Reveal Limitations to Information Flow in Ant Colonies. https://doi.org/10.1371/journal.pone.0020298 
 License: GPL-3
 LazyLoad: yes
 Depends: igraph, plyr
