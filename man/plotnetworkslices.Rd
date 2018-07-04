@@ -8,7 +8,7 @@ Plots a time-aggregated network
 -
 }
 \usage{
-plotnetworkslices(slices, timedeltas)
+plotnetworkslices(slices, timedeltas, ...)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
@@ -17,6 +17,9 @@ A list of n time-aggregated networks
 }
   \item{timedeltas}{
 A n x 2 matrix describing the start and stop times for each time-aggregated network
+}
+  \item{...}{
+Other arguments to be passed to \code{igraph}'s plotting functionality
 }
 }
 

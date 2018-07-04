@@ -11,7 +11,7 @@ Plots a time-aggregated network. See igraph.plotting for more details.
 plottanet(timeaggregatednetwork, layout = layout.circle, 
 	vertex.label = V(timeaggregatednetwork)$name, vertex.size = 0, 
 	vertex.label.cex = 0.5, edge.arrow.size = 0.5, 
-	edge.width = E(timeaggregatednetwork)$Count/5)
+	edge.width = E(timeaggregatednetwork)$Count/5, ...)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
@@ -35,6 +35,9 @@ Arrow size.
 }
   \item{edge.width}{
 Arrow width, defaults to be proportional to edge weight.
+}
+  \item{...}{
+Other arguments to be passed to \code{igraph}'s plotting functionality
 }
 }
 
