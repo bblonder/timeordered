@@ -11,3 +11,10 @@ LazyLoad: yes
 LazyData: true
 Depends: igraph, plyr
 Imports: methods
+Authors@R: c(person(given = c("Benjamin", "Wong"),
+                      family = "Blonder",
+                      role = "aut"),
+               person(given = c("Benjamin", "Wong"),
+                      family = "Blonder",
+                      role = "cre",
+                      email = "benjamin.blonder@berkeley.edu"))
