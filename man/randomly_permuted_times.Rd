@@ -96,7 +96,3 @@ r1 <- randomly_permuted_times(ants)
 r2 <- contact_randomization(ants)
 r2 <- random_times(r1)
 }
-% Add one or more standard keywords, see file 'KEYWORDS' in the
-% R documentation directory.
-\keyword{ ~kwd1 }
-\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line

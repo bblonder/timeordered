@@ -13,10 +13,10 @@ generatevertexedgelist(raw, allindivs)
 %- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{raw}{
-%%     ~~Describe \code{raw} here~~
+A data frame of events
 }
   \item{allindivs}{
-%%     ~~Describe \code{allindivs} here~~
+A vector of names
 }
 }
 
@@ -29,7 +29,3 @@ generatevertexedgelist(raw, allindivs)
 
 
 
-% Add one or more standard keywords, see file 'KEYWORDS' in the
-% R documentation directory.
-\keyword{ ~kwd1 }
-\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line

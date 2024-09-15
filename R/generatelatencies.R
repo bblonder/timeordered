@@ -1,5 +1,5 @@
 generatelatencies <-
-function(raw, allindivs=union(raw$VertexFrom, raw$VertexTo))
+function(raw, allindivs=union(as.character(raw$VertexFrom), as.character(raw$VertexTo)))
 {
 	maxTime <- max(c(raw$TimeStart,raw$TimeStop))	
 	

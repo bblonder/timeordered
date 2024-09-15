@@ -33,7 +33,3 @@ A mean value for each of n rows of td
 tl100 <- generatetimelags(0,1500,100)
 boxplot(t(midpoints(tl100)))
 }
-% Add one or more standard keywords, see file 'KEYWORDS' in the
-% R documentation directory.
-\keyword{ ~kwd1 }
-\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line

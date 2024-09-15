@@ -34,7 +34,7 @@ A list whose entries represent the function's value for each network
 }
 \examples{
 data(ants)
-allindivs <- c(union(ants$VertexFrom, ants$VertexTo), "NULL1", "NULL2")
+allindivs <- c(union(as.character(ants$VertexFrom), as.character(ants$VertexTo)), "NULL1", "NULL2")
 g <- generatetonetwork(ants, allindivs)
 td100 <- generatetimedeltas(0,1500,100)
 ns100 <- generatenetworkslices(g, td100)
@@ -46,7 +46,3 @@ par(mfrow=c(1,2))
 plot(midpoints(td100),unlist(md100),type="l",xlab="Time (window size = 100)",ylab="Diameter")
 plot(maxpoints(tl100),unlist(ml100),type="l",xlab="Aggregation time",ylab="Diameter")
 }
-% Add one or more standard keywords, see file 'KEYWORDS' in the
-% R documentation directory.
-\keyword{ ~kwd1 }
-\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line

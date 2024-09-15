@@ -36,13 +36,9 @@ Return value can require large memory allocation depending on the data set. Ensu
 
 \examples{
 data(ants)
-allindivs <- c(union(ants$VertexFrom, ants$VertexTo), "NULL1", "NULL2")
+allindivs <- c(union(as.character(ants$VertexFrom), as.character(ants$VertexTo)), "NULL1", "NULL2")
 l <- generatelatencies(ants, allindivs)
 image(l[,,1000],axes=FALSE,frame=TRUE,col=rainbow(100))
 axis(1, at = (1:ncol(l))/ncol(l), labels=colnames(l),tick=FALSE,las=2,cex.axis=0.2)
 axis(2, at = (1:nrow(l))/nrow(l), labels=rownames(l),tick=FALSE,las=2,cex.axis=0.2)
 }
-% Add one or more standard keywords, see file 'KEYWORDS' in the
-% R documentation directory.
-\keyword{ ~kwd1 }
-\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line

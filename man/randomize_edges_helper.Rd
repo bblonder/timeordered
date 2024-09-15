@@ -14,10 +14,10 @@ randomize_edges_helper(edges, randomize_vertices)
 %- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{edges}{
-%%     ~~Describe \code{edges} here~~
+A data frame for an edge list
 }
   \item{randomize_vertices}{
-%%     ~~Describe \code{randomize_vertices} here~~
+A binary variable
 }
 }
 \author{
@@ -65,7 +65,3 @@ function (edges, randomize_vertices)
     return(edges)
   }
 }
-% Add one or more standard keywords, see file 'KEYWORDS' in the
-% R documentation directory.
-\keyword{ ~kwd1 }
-\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line

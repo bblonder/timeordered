@@ -31,7 +31,7 @@ A data frame whose columns are the identities of vertices and whose rows are the
 }
 \examples{
 data(ants)
-allindivs <- c(union(ants$VertexFrom, ants$VertexTo), "NULL1", "NULL2")
+allindivs <- c(union(as.character(ants$VertexFrom), as.character(ants$VertexTo)), "NULL1", "NULL2")
 g <- generatetonetwork(ants, allindivs)
 sa <- spreadanalysis(g, seq(0,1000,by=50), 20)
 b <- transformspreadbyindividual(sa)
@@ -39,7 +39,3 @@ plot(ts(b),plot.type="single",col=rainbow(ncol(b)),xlab="Time",ylab="Fraction re
 legend("bottomright",colnames(b),lwd=1,col=rainbow(ncol(b)),bg="white")
 
 }
-% Add one or more standard keywords, see file 'KEYWORDS' in the
-% R documentation directory.
-\keyword{ ~kwd1 }
-\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line

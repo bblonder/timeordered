@@ -13,7 +13,7 @@ generatetonetworkfromvel(vel)
 %- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{vel}{
-%%     ~~Describe \code{vel} here~~
+A data frame listing all directed edges
 }
 }
 
@@ -30,7 +30,3 @@ generatetonetworkfromvel(vel)
 ##-- ==>  Define data, use random,
 ##--	or do  help(data=index)  for the standard data sets.
 }
-% Add one or more standard keywords, see file 'KEYWORDS' in the
-% R documentation directory.
-\keyword{ ~kwd1 }
-\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line

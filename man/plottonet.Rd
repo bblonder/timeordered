@@ -65,13 +65,9 @@ None; used for its side-effect of producing a plot.
 }
 \examples{
 data(ants)
-allindivs <- c(union(ants$VertexFrom, ants$VertexTo), "NULL1", "NULL2")
+allindivs <- c(union(as.character(ants$VertexFrom), as.character(ants$VertexTo)), "NULL1", "NULL2")
 g <- generatetonetwork(ants, allindivs)
 plottonet(g)
 
 
 }
-% Add one or more standard keywords, see file 'KEYWORDS' in the
-% R documentation directory.
-\keyword{ ~kwd1 }
-\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line

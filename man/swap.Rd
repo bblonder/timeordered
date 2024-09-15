@@ -13,19 +13,19 @@ swap(df, r1, c1, r2, c2)
 %- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{df}{
-%%     ~~Describe \code{df} here~~
+A dataframe
 }
   \item{r1}{
-%%     ~~Describe \code{r1} here~~
+The first row to swap
 }
   \item{c1}{
-%%     ~~Describe \code{c1} here~~
+The first column to swap
 }
   \item{r2}{
-%%     ~~Describe \code{r2} here~~
+The second row to swap
 }
   \item{c2}{
-%%     ~~Describe \code{c2} here~~
+The second column to swap
 }
 }
 \author{
@@ -45,7 +45,3 @@ function (df, r1, c1, r2, c2)
     return(df)
   }
 }
-% Add one or more standard keywords, see file 'KEYWORDS' in the
-% R documentation directory.
-\keyword{ ~kwd1 }
-\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line

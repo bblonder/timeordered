@@ -45,7 +45,7 @@ Multiple shortest-hop paths may exist; returns only one of them.
 }
 \examples{
 data(ants)
-allindivs <- c(union(ants$VertexFrom, ants$VertexTo), "NULL1", "NULL2")
+allindivs <- c(union(as.character(ants$VertexFrom), as.character(ants$VertexTo)), "NULL1", "NULL2")
 g <- generatetonetwork(ants, allindivs)
 shp <- shortesthoppath(g, "WBGG", 927, "GYGG", 1423)
 plottonet(g, shp)
@@ -53,7 +53,3 @@ title(paste(length(unique(shp$Name))," hops"))
 
 
 }
-% Add one or more standard keywords, see file 'KEYWORDS' in the
-% R documentation directory.
-\keyword{ ~kwd1 }
-\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line

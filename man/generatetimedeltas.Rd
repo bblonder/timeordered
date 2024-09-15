@@ -39,7 +39,3 @@ A n x 2 matrix. Each row contains the start and stop time of a window with width
 td100 <- generatetimedeltas(0,1500,100)
 boxplot(t(td100))
 }
-% Add one or more standard keywords, see file 'KEYWORDS' in the
-% R documentation directory.
-\keyword{ ~kwd1 }
-\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line
