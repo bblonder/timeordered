@@ -3,7 +3,7 @@ Type: Package
 Title: Time-Ordered and Time-Aggregated Network Analyses
 Version: 1.0.1
 Date: 2024-09-15
-Author: Benjamin Wong Blonder
+Author: Benjamin Wong Blonder [aut, cre]
 Maintainer: Benjamin Wong Blonder <benjamin.blonder@berkeley.edu>
 Description: Approaches for incorporating time into network analysis. Methods include: construction of time-ordered networks (temporal graphs); shortest-time and shortest-path-length analyses; resource spread calculations; data resampling and rarefaction for null model construction; reduction to time-aggregated networks with variable window sizes; application of common descriptive statistics to these networks; vector clock latencies; and plotting functionalities. The package supports <doi:10.1371/journal.pone.0020298>. 
 License: GPL-3
@@ -11,3 +11,7 @@ LazyLoad: yes
 LazyData: true
 Depends: igraph, plyr
 Imports: methods
+Authors@R: person(given = c("Benjamin", "Wong"),
+                  family = "Blonder",
+                  role = c("aut", "cre"),
+                  email = "benjamin.blonder@berkeley.edu")
