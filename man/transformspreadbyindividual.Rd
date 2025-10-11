@@ -35,5 +35,5 @@ allindivs <- c(union(as.character(ants$VertexFrom), as.character(ants$VertexTo))
 g <- generatetonetwork(ants, allindivs)
 sa <- spreadanalysis(g, seq(0,1000,by=50), 20)
 b <- transformspreadbyindividual(sa)
-heatmap(b, Rowv=NA, Colv=NA, scale='none', xlab="Individual", ylab="Time")
+print(b)
 }
